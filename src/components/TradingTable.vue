@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, ref, onUnmounted, onMounted, Ref, computed } from 'vue';
-import { ElTable, ElTableV2, ElTableColumn } from 'element-plus';
+import { ElTable, ElTableColumn } from 'element-plus';
 import { Trade } from '@/api/types';
 
 export default defineComponent({
