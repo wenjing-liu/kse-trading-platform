@@ -9,6 +9,7 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+
     "lib": [
       "esnext",
       "dom"
@@ -16,9 +17,9 @@
     "types": [
       "element-plus/global"
     ],
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "/@/*": [
+      "@/*": [
         "src/*"
       ],
       "/cpns/*": [

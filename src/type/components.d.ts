@@ -9,7 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElRow: typeof import('element-plus/es')['ElRow']
-    HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
+    ElTable: typeof import('element-plus/es')['ElTable']
+    ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
+    ElTableFooter: typeof import('element-plus/es')['ElTableFooter']
+    ElTableV2: typeof import('element-plus/es')['ElTableV2']
     IconCommunity: typeof import('./../components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./../components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./../components/icons/IconEcosystem.vue')['default']
@@ -17,7 +20,7 @@ declare module 'vue' {
     IconTooling: typeof import('./../components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheWelcome: typeof import('./../components/TheWelcome.vue')['default']
-    WelcomeItem: typeof import('./../components/WelcomeItem.vue')['default']
+    TradingTable: typeof import('./../components/TradingTable.vue')['default']
+    WeclomeMsg: typeof import('./../components/WeclomeMsg.vue')['default']
   }
 }
